@@ -18,20 +18,17 @@ The program follows **modular design** (separated modules for sorting, configura
 
 ---
 ## Project Structure
-
+```
 Part2/
-├── main.py # Entry point, triggers file organization
+├── main.py
 ├── modules/
-│ ├── init.py # Marks the directory as a package
-│ ├── config.py # Defines file categories and regex rules
-│ ├── file_sorter.py # Core logic: categorizing and moving files
-│ └── logger.py # Logging of operations and errors
-├── files/ # Directory where files are organized
-├── readme.md # Project description
-├── setup.py # Packaging configuration
-├── test_part2.py # Test script for validation
-└── logs.txt # Log file for actions and errors
-
+│ ├── init.py
+│ ├── config.py
+│ ├── file_sorter.py
+│ └── logger.py
+├── files/
+└── logs.txt
+```
 ---
 
 ## How to Use
